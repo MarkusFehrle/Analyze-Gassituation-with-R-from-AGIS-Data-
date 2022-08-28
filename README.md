@@ -3,17 +3,24 @@ Analyze Gassitiation with R from AGIS Data
 
 With this R code the actual gassitation in Europe can be displayed (plotted with ggplot)
 
+
 Dataprovider:
+
 Read Data from
 https://agsi.gie.eu/
 
+
 How to adapt to yourself ?
+
 Get you API Key from AGSI website
+
 Put it in the code
 
 Data for german will be plottted
 
 You can modify country, dates of data, samplesize or add new ggplots
+
+
 
 Sorry. I know, code is not commented and code is in fact not realy nice. May for instance some double statements are in the code.
 
@@ -28,5 +35,7 @@ her are some sample plots:
 
 
 Best regards
-Markus fehrle
-image processing & enginnering
+
+Markus Fehrle
+
+Image Processing & Engineering
