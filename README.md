@@ -7,7 +7,7 @@ Dataprovider:
 Read Data from
 https://agsi.gie.eu/
 
-How to adapt to youredlef ?
+How to adapt to yourself ?
 Get you API Key from AGSI website
 Put it in the code
 
