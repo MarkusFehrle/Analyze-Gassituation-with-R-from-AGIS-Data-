@@ -24,7 +24,7 @@ You can modify country, dates of data, samplesize or add new ggplots
 
 Sorry. I know, code is not commented and code is in fact not realy nice. May for instance some double statements are in the code.
 
-In the moment i have not time for making it more nice. "It´s just running"
+In the moment i have no time for making it more nice. "It´s just running"
 
 But may it help anyhow somebody
 
