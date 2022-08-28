@@ -30,7 +30,11 @@ But may it help anyhow somebody
 
 
 her are some sample plots:
+
 ![Gasfüllstand D komplett (TWh),  28 Aug 2022 ](https://user-images.githubusercontent.com/5185093/187093173-c93bab27-988c-4939-8d60-f2fcd1a6b243.jpg)
+
+![Einsp-D-GD 90 Tage-Zoom 28 Aug 2022 ](https://user-images.githubusercontent.com/5185093/187093463-8cd87ae8-47a0-4d3f-bce5-1d210a116cd2.jpg)
+
 ![Entna-D-GD 90 Tage-Zoom 28 Aug 2022 ](https://user-images.githubusercontent.com/5185093/187093131-de162b25-60f2-4939-a03d-ffdbc4687662.jpg)
 
 
