@@ -1,4 +1,4 @@
-# r_analyze_gassitiation_in_europe
+# r_analyze_gassituation_in_europe
 Analyze Gassitiation with R from AGIS Data
 
 With this R code the actual gassitation in Europe can be displayed (plotted with ggplot)
