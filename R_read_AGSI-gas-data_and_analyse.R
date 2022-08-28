@@ -125,36 +125,6 @@ Titel = paste ("Einspeisung D komplett pro Tag (GWh), ",as.character( datum))
  ggsave(p, filename = paste(Titel,".jpg") )
  
  
- dp = subset(d,data.gasDayStart >= "2020-01-01"  )
- 
- 
- # p <- ggplot (data=dp,aes(x=as.Date(data.gasDayStart), y= as.double(data.injection))) +  geom_bar(stat = "identity",fill="#D55E00")  +
- #   geom_smooth(method = "lm", formula = y ~ poly(x, 4),aes(color="poly(x, 4)"))  + 
- #   # geom_smooth(method = "lm", formula = (y ~ x + I(x^2) + I(x^3)), aes (color = "x + I(x^2) + I(x^3)")) +
- #   geom_smooth( aes(color="LOESS Default Parameters")) +
- #   
- #   
- #   # p + geom_line(aes(y= as.double(data.gasInStorage))) 
- #   #p +  geom_point(colour = 'blue', size = 2,aes(y= as.double(data.gasInStorage)) )
- #   labs(title = "Einspeisung pro Tag  Deutschland komplett", 
- #        subtitle = "Data provider: agsi.gie.eu  -   (c) Image Processing & Engineering",
- #        y = "E I N S P E I S U N G [GWh]", x = "J A H R")
- # p
- # ggsave(p, filename = "Einspeisung_GWh_D_ab_1-1-2022.jpg")
- # 
- # p <- ggplot (data=dp,aes(x=as.Date(data.gasDayStart), y= as.double(data.withdrawal)))  + geom_bar(stat = "identity",fill="steelblue") +
- #   geom_smooth(method = "lm", formula = y ~ poly(x, 4),aes(color="poly(x, 4)"))  + 
- #   # FROM TIDYQUANT geom_ma(ma_fun = SMA, n = 30) +    
- #   # geom_smooth(method = "lm", formula = (y ~ x + I(x^2) + I(x^3)), aes (color = "x + I(x^2) + I(x^3)")) +
- #   geom_smooth( aes(color="LOESS Default Parameters")) +
- #   
- #   # p + geom_line(aes(y= as.double(data.gasInStorage))) 
- #   #p +  geom_point(colour = 'blue', size = 2,aes(y= as.double(data.gasInStorage)) )
- #   labs(title = "Entnahme  Deutschland Komplett", 
- #        subtitle = "Data provider: agsi.gie.eu  -   (c) Image Processing & Engineering",
- #        y = "E N T N A H M E [GWh]", x = "J A H R")
- # p
- # ggsave(p, filename = "Entnahme_GWh_Dab_1-1-2022.jpg")
  
  dp = d
  #dp = subset(d,data.gasDayStart >= "2022-01-01"  )
