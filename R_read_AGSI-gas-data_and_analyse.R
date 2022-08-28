@@ -11,7 +11,7 @@ h <- new_handle()
 
 # put here your API KEY
 # you can get it from https://agsi.gie.eu
-# or may do not hardcode it here and read from a seerate file
+# or may do not hardcode it here and read from a seperate file
 handle_setheaders(h, "x-key" = "Y O U R  A P I  KEY")
 
 
@@ -73,23 +73,23 @@ options(max.print = 1000000)
  c = jsonlite::fromJSON(a) 
  d1 = as.data.frame(c)
 
-Titel = paste ("Gasfüllstand D komplett (Prozent), ",as.character( datum))
+Titel = paste ("GasfÃ¼llstand D komplett (Prozent), ",as.character( datum))
 p <- ggplot (data=d,aes(x=as.Date(data.gasDayStart), y= as.double(data.full))) +  geom_point(colour = 'red', size = 1) + geom_line() +
 # p + geom_line(aes(y= as.double(data.gasInStorage))) 
 #p +  geom_point(colour = 'blue', size = 2,aes(y= as.double(data.gasInStorage)) )
  labs(title =Titel, 
      subtitle = "Data provider: agsi.gie.eu  -   (c) Image Processing & Engineering",
-     y = "F Ü L L S T A N D   [%]", x = "J A H R")
+     y = "F Ãœ L L S T A N D   [%]", x = "J A H R")
 p
 ggsave(p, filename = paste(Titel,".jpg") )
 
-Titel = paste ("Gasfüllstand D komplett (TWh), ",as.character( datum))
+Titel = paste ("GasfÃ¼llstand D komplett (TWh), ",as.character( datum))
 p <- ggplot (data=d,aes(x=as.Date(data.gasDayStart), y= as.double(data.gasInStorage))) +  geom_point(colour = 'blue', size = 1) + geom_line() +
   # p + geom_line(aes(y= as.double(data.gasInStorage))) 
   #p +  geom_point(colour = 'blue', size = 2,aes(y= as.double(data.gasInStorage)) )
   labs(title = Titel, 
        subtitle = "Data provider: agsi.gie.eu  -   (c) Image Processing & Engineering",
-       y = "F Ü L L S T A N D  [TWh]", x =  "J A H R")
+       y = "F Ãœ L L S T A N D  [TWh]", x =  "J A H R")
 p
 ggsave(p, filename = paste(Titel,".jpg") )
  
@@ -158,7 +158,7 @@ Titel = paste ("Einspeisung D komplett pro Tag (GWh), ",as.character( datum))
  
  dp = d
  #dp = subset(d,data.gasDayStart >= "2022-01-01"  )
- # samples für gleitenden Durchschnitt
+ # samples fÃ¼r gleitenden Durchschnitt
  samples <- 90
  d1 <- dp 
  
@@ -232,7 +232,7 @@ Titel = paste ("Einspeisung D komplett pro Tag (GWh), ",as.character( datum))
 
  dp = d
  #dp = subset(d,data.gasDayStart >= "2022-01-01"  )
- # samples für gleitenden Durchschnitt
+ # samples fÃ¼r gleitenden Durchschnitt
  samples <- 30
  d1 <- dp 
  
