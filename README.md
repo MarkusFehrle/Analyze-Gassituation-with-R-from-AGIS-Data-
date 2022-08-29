@@ -1,5 +1,5 @@
 # r_analyze_gassituation_in_europe
-<h1>Analyze Gassitiation with R from AGIS Data
+<h1>Analyze Gassituation with R from AGIS Data
 </h1>
 
 
