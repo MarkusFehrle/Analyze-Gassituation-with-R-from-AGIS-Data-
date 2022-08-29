@@ -22,7 +22,7 @@ d=data.frame()
 for(year in 2011:2022) 
 {
   yearS= toString(year)
-  url1 = "https://agsi.gie.eu/api?country=at&from="
+  url1 = "https://agsi.gie.eu/api?country=de&from="
   url2 = "-01-01&to="
   url3 = "-6-30&size=300"
   url = paste(url1,yearS,url2,yearS,url3,sep = "")
